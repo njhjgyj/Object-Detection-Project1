@@ -1,0 +1,30 @@
+video {
+
+    display: block;
+
+}
+
+#stopVideo-btn {
+
+    display: none;
+
+}
+
+.highlighter {
+
+    background: rgba(0, 255, 0, 0.25);
+    border: 1px dashed #fff;
+    z-index: 1;
+    position: absolute;
+    margin-left: 27%;
+
+
+}
+
+#div2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

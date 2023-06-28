@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="div1" class="div-class-tag1">
+
+        <h1>Object Detection Project</h1>
+
+        <p id="p-tag1">
+
+            Click the Enable webcam to enable the webcam
+
+        </p>
+
+        <div id="div2">
+
+            <button id="button-id1">Enable Webcam</button>
+            <button id="stopVideo-btn" onclick="stopVideo()">Pause</button>
+
+            <video id="video-tag1" autoplay width="640" height="480"></video>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
