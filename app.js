@@ -117,3 +117,5 @@ function predictWebcam() {
     });
 
 };
+
+            alert("If you don't see the enable webcam button then enable the desktop site")
